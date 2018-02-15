@@ -9,6 +9,12 @@ function clearCache() {
     php artisan route:clear
     php artisan config:clear
     php artisan cache:clear
+
+    rm -rf storage/framework/sessions
+    mkdir storage/framework/sessions
+    touch storage/framework/sessions/.gitkeep
+
+    rm storage/logs/laravel.log
 }
 
 function init() {
