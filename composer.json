@@ -7,10 +7,10 @@
     "repositories": [{
         "type": "package",
         "package": {
-            "name": "etouraille/laravel",
+            "name": "phpbenchmarks/laravel",
             "version": "master",
             "source": {
-                "url": "https://github.com/etouraille/laravel.git",
+                "url": "https://github.com/phpbenchmarks/laravel.git",
                 "type": "git",
                 "reference": "master"
             }
@@ -21,7 +21,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "etouraille/laravel" : "dev-master"
+        "phpbenchmarks/laravel" : "dev-smalloverload"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -37,7 +37,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Overload\\" : "vendor/etouraille/laravel/src/"
+            "Overload\\" : "vendor/phpbenchmarks/laravel/src/"
         }
     },
     "autoload-dev": {
